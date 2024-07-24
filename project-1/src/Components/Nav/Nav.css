@@ -1,0 +1,36 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  border: 1px solid red;
+  padding: 10px 25px;
+  background-color: rgb(242, 29, 29);
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
