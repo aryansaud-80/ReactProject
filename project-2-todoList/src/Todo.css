@@ -1,0 +1,125 @@
+.header-container {
+  background-color: #f2f3ff;
+  padding: 10px 20px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  border-radius: 6px;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addTodoForm,
+.editTodoForm {
+  width: 100wv;
+  background-color: #f3f3f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.addTodoForm input,
+.edit-input {
+  width: 100%;
+  padding: 10px 8px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.editTodoForm {
+  border: 0.8px solid black;
+}
+
+::placeholder {
+  font-size: 20px;
+}
+
+.add-btn,
+.edit-btn,
+.cancel-btn {
+  padding: 10px 30px;
+  border: none;
+  background-color: #ccdddd;
+  font-size: 20px;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn,
+.cancel-btn {
+  padding: 14px 20px;
+  margin-left: 4px;
+}
+
+.todo {
+  margin-top: 30px;
+  width: 715px;
+  padding-right: 15px;
+  height: 300px;
+  overflow: scroll;
+  font-size: 18px;
+}
+
+.date-time {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.checked p {
+  text-decoration: line-through;
+  color: green;
+}
+
+ul li p {
+  width: 85%;
+  font-size: 24px;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.check,
+.delete,
+.edit {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px;
+  color: #e5ceff;
+}
+
+.checked .check {
+  color: green;
+}
+
+.delete {
+  color: red;
+}
+
+.edit {
+  color: black;
+}
